@@ -1,32 +1,59 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(176, 177, 176  );
 }
 
-.container{
-    width: 20em;
+
+
+form{
+    width: 18em;
+    height: 28em;
     margin: 0 auto;
-    background-color: blueviolet;
-}
-
-main{
-    width: 20em;
-    height: 21em;
-    align-self: center;
-    background-color: aquamarine;
-    
-
+    background-color: rgb(215, 247, 244);
+    padding: 20px;
+    border-radius: 6px;
 }
 #h1{
     text-align:center;
 
 }
+
+input, textarea{
+
+    border: 1px solid;
+    
+}
+
 .boton{
-    width: 10em;
-    height: 2.5em;
-    background-color: darkblue;
+    width: 10em;    
+    height: 3em;
+    background-color: rgb(85, 168, 242 ) ;
     border-radius: 3px;
     border: 2px solid black;
     margin-left: 30%;
 
+}
+
+.txt{
+    width: 260px;
+    padding: 4px;
+    margin: 7px;
+    outline: none;
+}
+
+.label{
+
+    margin: 7px;
+    font-size: 17px;
+}
+
+.txt:focus{
+    background-color:rgb(162, 200, 231);
+}
+
+.area{
+    width: 260px;
+    margin: 7px;
+    height: 120px;
 }
